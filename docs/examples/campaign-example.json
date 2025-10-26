@@ -1,0 +1,63 @@
+{
+  "title": "Summer Vacation Giveaway",
+  "description": "Enter to win an all-expenses-paid vacation to Hawaii! One lucky winner will receive flights, hotel, and spending money for a week in paradise.",
+  "startDate": "2024-06-01T00:00:00.000Z",
+  "endDate": "2024-08-31T23:59:59.000Z",
+  "status": "active",
+  "bannerImage": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1200",
+  "videoUrl": "",
+  "fields": [
+    {
+      "id": "field-1",
+      "name": "firstName",
+      "label": "First Name",
+      "type": "text",
+      "required": true
+    },
+    {
+      "id": "field-2",
+      "name": "lastName",
+      "label": "Last Name",
+      "type": "text",
+      "required": true
+    },
+    {
+      "id": "field-3",
+      "name": "email",
+      "label": "Email Address",
+      "type": "email",
+      "required": true
+    },
+    {
+      "id": "field-4",
+      "name": "phone",
+      "label": "Phone Number",
+      "type": "phone",
+      "required": false
+    },
+    {
+      "id": "field-5",
+      "name": "age",
+      "label": "Age",
+      "type": "select",
+      "required": true,
+      "options": ["18-25", "26-35", "36-45", "46-55", "56+"]
+    },
+    {
+      "id": "field-6",
+      "name": "newsletter",
+      "label": "I want to receive email updates about future promotions",
+      "type": "checkbox",
+      "required": false
+    },
+    {
+      "id": "field-7",
+      "name": "referral",
+      "label": "How did you hear about us?",
+      "type": "select",
+      "required": false,
+      "options": ["Social Media", "Friend", "Email", "Advertisement", "Other"]
+    }
+  ],
+  "integrations": []
+}
